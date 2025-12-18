@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎲 zeonixTest 
+<img width="1580" height="890" alt="image" src="https://github.com/user-attachments/assets/1ef5e118-b01a-40b3-a27c-0d3cebcc2de1" />
 
-## Getting Started
+🔗 Live Demo: https://zeonix-test.vercel.app/
 
-First, run the development server:
+📌 Overview
+zeonixTest 🧰🚀 is a fully responsive, modern single‑page application built with Next.js and TypeScript. It implements a simple dice guessing game where players choose higher or lower and instantly see results. The app uses Redux Toolkit for state management, react‑hot‑toast for notifications, and Material‑UI (MUI) for a clean, accessible UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+🛠️ Tech Stack
+Framework: Next.js + TypeScript
+
+UI Library: Material‑UI (MUI v5)
+
+Notifications: react‑hot‑toast
+
+State Management: Redux Toolkit (RTK)
+
+Tooling: pnpm for fast installs and builds
+
+📂 Project Structure
+bash
+src/
+├── components/        # Reusable UI components (buttons, sliders, results table)
+├── store/             # Redux slices and selectors
+├── pages/             # Next.js pages (Home, etc.)
+├── utils/             # Utility functions (random number generator, helpers)
+└── app/layout.tsx     # Global layout and providers
+🚀 Getting Started
+✅ Prerequisites
+Node.js (v18+ recommended)
+
+pnpm installed globally:
+
+bash
+npm install -g pnpm
+📦 Install Dependencies
+bash
+pnpm install
+🛠 Start Development Server
+bash
 pnpm dev
-# or
-bun dev
-```
+🏗 Build for Production
+bash
+pnpm build
+🌐 Deployment
+This project is deployed using Vercel for seamless Next.js hosting. Branch: main
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔑 Features
+🎲 Dice guessing game (higher/lower logic)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📊 Results table (last 10 tries, responsive)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Win/Lose feedback with colored text (green/red)
 
-## Learn More
+🔔 Instant notifications via react‑hot‑toast
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📱 Fully responsive layout for mobile and desktop
